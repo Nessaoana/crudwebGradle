@@ -10,7 +10,7 @@ public class ListaUser {
 
 	public ListaUser(ArrayList<User> usuarios) {
 		super();
-		this.usuarios = usuarios;
+		ListaUser.usuarios = usuarios;
 	}
 
 	public ArrayList<User> getUsuarios() {
@@ -18,12 +18,13 @@ public class ListaUser {
 	}
 
 	public void setUsuarios(ArrayList<User> usuarios) {
-		this.usuarios = usuarios;
+		ListaUser.usuarios = usuarios;
 	}
 
 	
 	public static User getUsuario(int id){
 		User user = null;
+		System.out.println(usuarios);
 		for(User u : usuarios) {
 			System.out.println(u.toString());
 			if(u.getId() == id) {

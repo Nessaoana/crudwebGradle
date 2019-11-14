@@ -25,7 +25,10 @@
 				<td>${user.email}</td>
 			</tr>
 		</table>
-
+		<button><a href="edit?id=<c:out value='${user.id}' />">Editar</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;</button>
+		<button><a href="delet?id=<c:out value='${user.id}' />">Deletar</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;</button>
 	</div>
 </body>
 </html>

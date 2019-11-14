@@ -17,9 +17,8 @@
 
 	<!-- Formulário para edição  -->
 		<form action="update" method="post">
-
+			<h2>Editar Usuário</h2>
 			<table border="1" cellpadding="5">
-				<h2>Editar Usuário</h2>
 				<tr>
 					<th>Nome:</th>
 					<td><input type="text" name="nome" size="45" value="<c:out value='${user.name}' />" ></td>

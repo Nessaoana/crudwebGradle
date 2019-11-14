@@ -46,9 +46,9 @@ import crudweb.model.User;
 //	                deleteBook(request, response);
 //	                break;
 
-//	            case "/update":
-//	                editarUser(request, response);
-//	                break;
+	            case "/edit":
+	                editarUser(request, response);
+	                break;
 	            default:
 	                listUser(request, response);
 	                break;
